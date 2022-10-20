@@ -1,0 +1,7 @@
+{
+  "name": "projetoIframe",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

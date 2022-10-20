@@ -1,0 +1,65 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Logo
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+  <div class="myClass">
+      <ion-card>
+        <img src="assets/promocoes.png" width="100%"/>
+        <div class="card-title">Promoções</div>
+        <div class="card-subtitle">Acompanhe as promoções do dia</div>
+      </ion-card>
+
+    <ion-grid>
+    <ion-row>
+      <ion-col>
+
+          <ion-item (click)="exibirCardapio()" class="ion-activated">
+            <div class="ion-text-center">
+              <img src="assets/cardapio.png">
+              <h3>Cardápio</h3>
+            </div>
+          </ion-item>
+
+        </ion-col>
+      <ion-col>
+
+          <ion-item (click)="exibirSobre()" class="ion-activated">
+            <div class="ion-text-center">
+              <img src="assets/eventos.png">
+              <h3>Eventos</h3>
+            </div>
+          </ion-item>
+
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+
+            <ion-item (click)="exibirOutras()" class="ion-activated">
+              <div class="ion-text-center">
+                <img src="assets/acompanhar-pedido.png">
+                <h3>Acompanhar pedido</h3>
+              </div>
+            </ion-item>
+
+      </ion-col>
+      <ion-col>
+
+          <ion-item href="#" class="ion-activated">
+            <div class="ion-text-center">
+              <img src="assets/qr-code.png">
+              <h3>Sobre nós</h3>
+            </div>
+          </ion-item>
+
+      </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>
